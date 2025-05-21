@@ -1,5 +1,9 @@
 # 🧠 Self Care Microservice
+
 This microservice analyzes user journal entries for sentiment and returns a positivity score along with a motivational message. It is designed to support the MoodMate app by providing emotional feedback through natural language processing.
+
+---
+
 ## 🚀 Setup Instructions
 
 ### 1. Clone the Repository
@@ -7,6 +11,7 @@ This microservice analyzes user journal entries for sentiment and returns a posi
 ```bash
 git clone <your-repo-url>
 cd your-repo-folder
+```
 
 2. Create a Virtual Environment
 python -m venv venv
