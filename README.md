@@ -62,7 +62,7 @@ The test will POST a sample journal entry to the microservice and print the retu
 UML Diagram
 ```markdown
 
-![UML Diagram](路径/或/GitHub链接)
+![UML Diagram](https://raw.githubusercontent.com/<your-username>/<repo-name>/main/assets/uml_diagram.png)
 ```
 Notes：
 ```bash
