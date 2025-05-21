@@ -1,10 +1,10 @@
-# 🧠 Self Care Microservice
+#  Self Care Microservice
 
 This microservice analyzes user journal entries for sentiment and returns a positivity score along with a motivational message. It is designed to support the MoodMate app by providing emotional feedback through natural language processing.
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -59,9 +59,9 @@ python test_program.py
 ```
 The test will POST a sample journal entry to the microservice and print the returned JSON result.
 
-Notes
+Notes：
 Sentiment analysis is done using the VADER sentiment intensity analyzer.
 Messages are not tied to score ranges, but are randomly selected.
 
-License
+License：
 This microservice is for educational purposes only. No license is provided.
