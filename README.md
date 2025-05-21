@@ -59,9 +59,15 @@ python test_program.py
 ```
 The test will POST a sample journal entry to the microservice and print the returned JSON result.
 
+UML Diagram
+```bash
+
+![image](https://github.com/user-attachments/assets/97b12736-d6d9-4b98-b54d-384ba02b1286)
+```
 Notes：
+```bash
 Sentiment analysis is done using the VADER sentiment intensity analyzer.
 Messages are not tied to score ranges, but are randomly selected.
-
+```
 License：
 This microservice is for educational purposes only. No license is provided.
