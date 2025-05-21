@@ -14,41 +14,53 @@ cd your-repo-folder
 ```
 
 2. Create a Virtual Environment
+ ```bash  
 python -m venv venv
 .\venv\Scripts\activate   # On Windows
+```
 
 3. Install Dependencies
+```bash
 pip install -r requirements.txt
-
-Running the FastAPI Server
+```
+4. Running the FastAPI Server
+```bash
 uvicorn main:app --reload
+```
 Server will start at: http://127.0.0.1:8000
 
 API Usage
 POST /api/analyze
 
 Request Headers
+```bash
 Content-Type: application/json
+```
 Request Body
+```bash
 {
   "mood": "neutral",
   "journal_text": "Today was tough, but I didn’t give up."
 }
+```
 
 Response Body
+```bash
 {
   "positivity_score": 0.4215,
   "motivational_message": "You are stronger than you think."
 }
+```
 
  Test Program
 To test the service programmatically, run:
+```bash
 python test_program.py
+```
 The test will POST a sample journal entry to the microservice and print the returned JSON result.
 
 Notes
 Sentiment analysis is done using the VADER sentiment intensity analyzer.
-
 Messages are not tied to score ranges, but are randomly selected.
 
 License
