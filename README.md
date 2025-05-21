@@ -59,11 +59,6 @@ python test_program.py
 ```
 The test will POST a sample journal entry to the microservice and print the returned JSON result.
 
-UML Diagram
-```markdown
-
-![UML Diagram](https://raw.githubusercontent.com/<your-username>/<repo-name>/main/assets/uml_diagram.png)
-```
 Notes：
 ```bash
 Sentiment analysis is done using the VADER sentiment intensity analyzer.
