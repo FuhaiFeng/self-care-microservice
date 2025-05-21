@@ -60,7 +60,7 @@ python test_program.py
 The test will POST a sample journal entry to the microservice and print the returned JSON result.
 
 UML Diagram
-```bash
+```markdown
 
 ![UML Diagram](路径/或/GitHub链接)
 ```
